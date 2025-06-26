@@ -1,0 +1,7 @@
+O projeto conta com 10 entradas, identificadas de SW0 a SW9, responsáveis por fornecer os dados de entrada ao sistema. A visualização dos resultados é feita por meio dos displays de 7 segmentos disponíveis na placa.
+
+As entradas lógicas estão mapeadas da seguinte forma: para o primeiro operando em sinal-magnitude, utilizam-se os sinais a_sig, a0, a1, a2 e a3; para o segundo operando, os sinais correspondentes são b_sig, b0, b1, b2 e b3. As saídas do sistema estão organizadas da seguinte maneira: a_sig_o e o_a0 até o_a6 representam o primeiro operando; b_sig_o e o_b0 até o_b6 correspondem ao segundo; e o produto final é representado pelos sinais res_sinal, res1_0 até res1_6 e res0_0 até res0_6, que exibem os dois dígitos do resultado e seu respectivo sinal.
+
+O circuito realiza a leitura dos dois operandos nas entradas, ambos no formato sinal-magnitude, e os apresenta nos displays de 7 segmentos. Após a multiplicação, o produto também é exibido nos mesmos displays.
+
+O desenvolvimento foi realizado utilizando a placa DE0-CV, baseada no FPGA Cyclone V.

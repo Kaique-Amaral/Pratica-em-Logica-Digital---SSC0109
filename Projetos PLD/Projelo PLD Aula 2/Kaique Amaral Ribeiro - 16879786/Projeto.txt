@@ -1,0 +1,28 @@
+O projeto da Aula 2, "Problema do Reservatório de Água", feito na placa gráfica DE0-CV, de código no Cyclone V: 5CEBA4F23C7. 
+
+Primeiramente, fiz um pequeno texto dizendo as condições para cada output(acender V1, V2, V3 e ALARME):
+
+Se S1 e S2 ligados = V2
+Se S1 ligado = V1
+Se nenhum S ligado = V3
+
+Se S1 ligado e S0 desligado
+	ou 
+S2 ligado e S1 e/ou S2 desligado = Alarme
+
+Utilizei a placa
+
+Partindo desse pressuposto, fiz em duas etapas, uma para as válvulas e uma para o alarme:
+1)
+-Conectei S1 no output V1, para que a válvula "se ative"(o LED ligue) se ele estiver ativado.
+-Conectei S1 e S2 na porta lógica AND chamada inst, e conectei-a ao output V2.
+-Conectei S0, S1 e S2 na porta lógica NOR com 3 entradas, e conectei-a no output V3.
+
+2)
+-Conectei S1 na porta lógica AND chamada inst13.
+-Conectei S0 na porta lógica NOT chamada inst14, e conectei-a à porta lógica AND chamada inst13.
+-Conectei S0 na porta lógica NOT chamada inst19.
+-Conectei S1 na porta lógica NOT chamada inst18.
+-Conectei inst19 e inst18 na porta lógica OR chamada inst17.
+-Conectei S2 e a porta lógica inst17 na porta lógica AND chamada inst16.
+-Conectei inst16 e inst13 na porta lógica OR chamada inst15, e conectei-a ao output ALARME.

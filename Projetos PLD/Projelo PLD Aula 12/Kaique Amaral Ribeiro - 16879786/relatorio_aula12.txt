@@ -1,0 +1,11 @@
+O projeto desenvolvido conta com 8 entradas, correspondentes aos switches SW0 a SW9, e utiliza os displays de 7 segmentos HEX5[0-6], HEX4[0-6], HEX2[0–6], HEX1[0–6] e HEX0[0–6] como saídas.
+
+As entradas estão associadas aos sinais lógicos i0 a i7, que representam o operando de 8 bits a ser utilizado no cálculo da raiz quadrada. As saídas são:
+
+-q0 a q6: responsáveis por exibir, em hexadecimal, a parte inteira da raiz quadrada do operando no display HEX6.
+
+-r0_0 a r0_6 e r1_0 a r1_6: responsáveis por exibir o resto da operação (também em hexadecimal), distribuído em dois dígitos nos displays HEX5 e HEX4, respectivamente.
+
+O circuito recebe um valor de 8 bits via switches, calcula sua raiz quadrada inteira e o resto da divisão, exibindo esses resultados nos displays de 7 segmentos junto do valor da entrada de 8 bits.
+
+Placa utilizada: Cyclone V (DE0)

@@ -1,0 +1,15 @@
+Nesta aula, foi desenvolvido um sistema de subtrator completo de dois bits. O circuito conta com 3 entradas e 2 saídas, sendo implementado com os seguintes componentes lógicos: 3 portas AND, 1 porta XOR e 1 porta OR.
+
+Funcionamento:
+-O subtrator recebe dois bits de entrada (X e Y) e um bit de borrow-in (Bi). As saídas são o bit de diferença (D) e o borrow-out (Bo).
+
+Placa utilizada: Cyclone V DE0-CV
+
+Entradas: (através dos switches — ligado = 1, desligado = 0)
+A – PIN_T13
+B – PIN_V13
+Borrowin – PIN_U13
+
+Saídas: (indicadas por LEDs)
+D – PIN_AA2
+Borrowout – PIN_AA1

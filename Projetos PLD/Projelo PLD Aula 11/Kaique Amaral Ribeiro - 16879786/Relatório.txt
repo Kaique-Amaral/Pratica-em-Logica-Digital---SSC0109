@@ -1,0 +1,7 @@
+O projeto utiliza 10 entradas digitais, identificadas como SW0 até SW9. Os dados são exibidos por meio dos displays de 7 segmentos.
+
+Essas entradas correspondem aos sinais lógicos de dois operandos representados em sinal-magnitude: a_sig, a0, a1, a2 e a3 para o primeiro operando (incluindo o sinal), e b_sig, b0, b1, b2 e b3 para o segundo. As saídas são organizadas da seguinte forma: a_sig_o e de a0_o até a6_o para o primeiro número, b_sig_o e de b0_o até b6_o para o segundo, q_sig_o e r1_0 até r1_6 para o quociente, e r_sig_o com r0_0 até r0_6 para o resto da divisão.
+
+O funcionamento do circuito consiste em receber os dois operandos através das chaves, processá-los em sinal-magnitude, apresentar ambos nos displays de 7 segmentos e, por fim, exibir o resultado da divisão — tanto o quociente quanto o resto — também nos displays.
+
+A plataforma de desenvolvimento empregada é a placa Cyclone V, modelo DE0-CV.

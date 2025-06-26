@@ -1,0 +1,11 @@
+|Aula7
+Diff <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN0
+B => inst1.IN1
+B => inst4.IN1
+Borrowin => inst.IN1
+Borrowin => inst5.IN0
+Borrowout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

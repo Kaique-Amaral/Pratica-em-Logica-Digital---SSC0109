@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DESLOCDIREITA",
+					"strict" : false
+				},
+				{
+					"name" : "DESLOCESQUERDA",
+					"strict" : false
+				},
+				{
+					"name" : "DESLOCFRENTE",
+					"strict" : false
+				},
+				{
+					"name" : "FRENTE",
+					"strict" : false
+				},
+				{
+					"name" : "ESQUERDA",
+					"strict" : false
+				},
+				{
+					"name" : "DIREITA",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

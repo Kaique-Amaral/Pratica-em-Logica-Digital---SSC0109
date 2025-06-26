@@ -1,0 +1,4 @@
+O circuito foi feito na placa pequena, de código 5CEBA4F23C7.
+
+Utilizou-se o circuito do somador completo feito na aula anterior para cada um dos 4 bits. Os inputs, denominados x e 7(x0+y0, x1+y1 e etc) foram, juntos da soma resultante, conectados aos outputs de displays de sete segmentos, um sendo referente ao display 5, outro sendo referente ao display 3 e a soma resultante sendo ligada ao display 0.
+O carry out do quarto somador completo coloca o 1 na frente do resultado da soma. Assim, o circuito completo consegue somar sem problemas quaisquer valores inteiros entrados pelo usuário até o máximo de 30 em hexadecimal.

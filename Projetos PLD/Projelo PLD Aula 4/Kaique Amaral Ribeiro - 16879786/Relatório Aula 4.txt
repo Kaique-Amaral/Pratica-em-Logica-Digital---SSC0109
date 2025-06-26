@@ -1,0 +1,21 @@
+Na Aula 4, foi desenvolvido um sistema para conversão de números binários em representações hexadecimais, utilizando o display de sete segmentos da placa. Para garantir uma implementação eficiente, foram utilizados mapas de Karnaugh, com o objetivo de simplificar as expressões lógicas responsáveis por acionar cada segmento do display.
+
+Entradas: números binários representados por switches (ligado = 1, desligado = 0)
+Saídas: segmentos do display de sete segmentos
+
+Placa utilizada: Cyclone V DE0-CV
+
+Saídas(Segmentos do display):
+S0 – PIN_U21
+S1 – PIN_V21
+S2 – PIN_W22
+S3 – PIN_W21
+S4 – PIN_Y22
+S5 – PIN_Y21
+S6 – PIN_AA22
+
+Entradas (switches):
+A – PIN_T12
+B – PIN_T13
+C – PIN_V13
+D – PIN_U12

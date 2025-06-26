@@ -1,0 +1,20 @@
+O projeto da Aula 1, feita com base no circuito referente à expressão Q = (A.B) + ((B+C).(B.C)), feito na placa gráfica DE0-CV, de código no Cyclone V: 5CEBA4F23C7.
+
+1) Sendo . equivalente ao comando lógico AND e + equivalente ao comando lógico OR, utilizou-se 3 portas AND e duas portas OR.
+
+-Liguei o Input A e o Input B na porta lógica AND de  nome inst.
+-Liguei o Input B e o Input C na porta lógica OR de nome inst7.
+-Liguei o Input B e o Input C na porta lógica AND de nome inst8.
+-Liguei a porta lógica inst7 e inst8 na porta lógica AND de nome inst6.
+-Liguei a porta lógica inst6 e inst na porta lógica OR de nome inst5.
+-O output, denominado Q, está ligado à porta inst5.
+
+2) Observando o circuito, fica claro que, caso B seja FALSE, o led não acenderá. Além disso, se somente B for TRUE, o led também não acenderá. 
+Logo, é necessário que B seja TRUE em conjunto com A ou com C para que o led acenda.
+
+Assim:
+-Liguei o Input A e o Input C na porta lógica OR de nome inst10.
+-Liguei o Input B e a porta lógica inst10 na porta lógica AND de nome inst9.
+-Liguei o output P na porta lógica inst9.
+
+

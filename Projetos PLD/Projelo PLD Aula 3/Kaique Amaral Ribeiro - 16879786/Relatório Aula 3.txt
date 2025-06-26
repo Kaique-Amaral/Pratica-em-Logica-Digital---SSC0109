@@ -1,0 +1,21 @@
+O projeto desenvolvido consistiu na criação de um circuito lógico para o controle de um robô móvel. O comportamento do robô é definido pelas leituras de três sensores (D, E e F), conforme as seguintes regras:
+
+-Se o sensor F indicar 0, o robô seguirá em frente.
+
+-Se os sensores D e F indicarem 1 e o sensor E indicar 0, o robô fará uma curva à esquerda.
+
+-Caso não seja possível seguir em frente nem virar à esquerda, o robô optará por virar à direita — mesmo que o sensor D detecte obstáculo, forçando o robô a girar até encontrar um caminho livre.
+
+Placa utilizada: Cyclone V DE0-CV
+
+Mapeamento de pinos:
+
+Entradas:
+DIREITA – PIN_U13
+ESQUERDA – PIN_T13
+FRENTE – PIN_V13
+
+Saídas (comandos de controle):
+DESLOCARDIREITA – PIN_AA2
+DESLOCARESQUERDA – PIN_W2
+DESLOCARFRENTE – PIN_AA1

@@ -1,0 +1,3 @@
+O circuito foi feito na placa pequena, de código Cyclone V 5CEBA4F23C7.
+
+Os 4 primeiros e os 4 últimos switches controlam os valores que participarão da equação. Os valores do quarto display(da direita pra esquerda) representam os valores que serão subtraídos do display mais à esquerda. O display mais à direita é o resultado, indo de 0 a F, e o led logo abaixo do display mais à direita diz se foi necessário o borrow ou não, acendendo em caso positivo e permanecendo desligado em caso negativo.

@@ -1,0 +1,13 @@
+O projeto desenvolvido possui 10 entradas, correspondentes aos switches SW0 a SW9, e utiliza como saídas os displays de 7 segmentos HEX1[6], HEX0[0–6], HEX5[6], HEX4[0–6], além dos LEDs LEDR0, LEDR9 e LEDR4.
+
+As entradas são associadas aos sinais lógicos a4 a a0 e b4 a b0, representando dois operandos em sinal e magnitude (1 bit para o sinal e 4 bits para a magnitude). As saídas são:
+
+a_sig_o e b_sig_o: indicam os sinais dos operandos, exibidos nos displays HEX5[6] e HEX1[6], respectivamente.
+o_a0 a o_a6 e o_b0 a o_b6: representam as magnitudes dos operandos, exibidas em HEX6 (para o primeiro operando) e HEX4 (para o segundo operando).
+AG (LEDR0): indica que o primeiro operando é maior.
+BG (LEDR9): indica que o segundo operando é maior.
+EQ (LEDR4): indica que os dois operandos são iguais.
+
+O circuito compara dois operandos com sinal e magnitude (5 bits cada), recebidos por meio dos switches, e exibe nos LEDs qual operando é maior ou se são iguais. Os valores também são apresentados nos displays de 7 segmentos.
+
+Placa utilizada: Cyclone V (DE0)

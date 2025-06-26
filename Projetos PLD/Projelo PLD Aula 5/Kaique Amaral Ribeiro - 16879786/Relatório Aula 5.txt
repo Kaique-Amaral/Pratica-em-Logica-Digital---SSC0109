@@ -1,0 +1,15 @@
+Nesta aula, foi desenvolvido um sistema de somador completo de 2 bits. O circuito possui 3 entradas e 2 saídas, sendo implementado com os seguintes componentes lógicos: 3 portas AND, 1 porta XOR e 1 porta OR.
+
+Funcionamento:
+-O somador recebe dois bits de entrada (X e Y) e um bit de carry-in (Ci). As saídas são o bit de soma (S) e o carry-out (Co).
+
+Placa utilizada: Cyclone V DE0-CV
+
+Entradas: (através dos switches — ligado = 1, desligado = 0)
+X – PIN_V13
+Y – PIN_T13
+Ci – PIN_U13
+
+Saídas: (indicadas por LEDs)
+S – PIN_AA1
+Co – PIN_AA2

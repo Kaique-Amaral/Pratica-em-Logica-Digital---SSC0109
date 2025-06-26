@@ -1,0 +1,11 @@
+|aula5
+si <= inst.DB_MAX_OUTPUT_PORT_TYPE
+c => inst.IN0
+c => inst4.IN0
+x => inst2.IN0
+x => inst5.IN0
+y => inst2.IN1
+y => inst5.IN1
+ci <= aaaaaa.DB_MAX_OUTPUT_PORT_TYPE
+
+

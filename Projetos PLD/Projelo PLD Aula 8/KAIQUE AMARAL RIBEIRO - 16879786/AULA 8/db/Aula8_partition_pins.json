@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "0",
+					"strict" : false
+				},
+				{
+					"name" : "2",
+					"strict" : false
+				},
+				{
+					"name" : "1",
+					"strict" : false
+				},
+				{
+					"name" : "3",
+					"strict" : false
+				},
+				{
+					"name" : "5",
+					"strict" : false
+				},
+				{
+					"name" : "e4",
+					"strict" : false
+				},
+				{
+					"name" : "e0",
+					"strict" : false
+				},
+				{
+					"name" : "e2",
+					"strict" : false
+				},
+				{
+					"name" : "e1",
+					"strict" : false
+				},
+				{
+					"name" : "e3",
+					"strict" : false
+				},
+				{
+					"name" : "e5",
+					"strict" : false
+				},
+				{
+					"name" : "e6",
+					"strict" : false
+				},
+				{
+					"name" : "r4",
+					"strict" : false
+				},
+				{
+					"name" : "r0",
+					"strict" : false
+				},
+				{
+					"name" : "r2",
+					"strict" : false
+				},
+				{
+					"name" : "r1",
+					"strict" : false
+				},
+				{
+					"name" : "r3",
+					"strict" : false
+				},
+				{
+					"name" : "r5",
+					"strict" : false
+				},
+				{
+					"name" : "r6",
+					"strict" : false
+				},
+				{
+					"name" : "6",
+					"strict" : false
+				},
+				{
+					"name" : "OVERFLOW",
+					"strict" : false
+				},
+				{
+					"name" : "4",
+					"strict" : false
+				},
+				{
+					"name" : "y2",
+					"strict" : false
+				},
+				{
+					"name" : "y3",
+					"strict" : false
+				},
+				{
+					"name" : "y4",
+					"strict" : false
+				},
+				{
+					"name" : "y1",
+					"strict" : false
+				},
+				{
+					"name" : "x1",
+					"strict" : false
+				},
+				{
+					"name" : "x3",
+					"strict" : false
+				},
+				{
+					"name" : "x2",
+					"strict" : false
+				},
+				{
+					"name" : "x4",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
